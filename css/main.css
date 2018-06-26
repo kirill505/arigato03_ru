@@ -229,11 +229,21 @@ h3 {
   font-size: 28px;
 }
 
-.action-main-card .action1 {
-  background-image: url("img/slide_img.png");
+ .action1 {
+  background: #c7b39b url(/img/slide_img.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
-  background-color: rgb(209,157,7);
+
+}
+
+.action-main-card p {
+  color: #A2A4A6;
+  font-size: 12px;
+
+}
+
+.action-main h2 {
+  padding-left: 0;
 }
